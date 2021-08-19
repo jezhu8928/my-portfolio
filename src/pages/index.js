@@ -1,14 +1,14 @@
 import * as React from "react";
-import logo from "../images/logo.png";
-import NavBar from "../components/navbar.js";
+import Layout from "../components/layout.js";
+import "../components/layout.css";
 
 const IndexPage = () => {
   return (
-    <main>
-      <NavBar/>
-      <h1>test</h1>
-      <h2>hey there!</h2>
-    </main>
+    <Layout pageTitle="my portfolio">
+      <div className="hey-there-container">
+        <h1>yo!</h1> 
+      </div>
+    </Layout>
   )
 }
 
