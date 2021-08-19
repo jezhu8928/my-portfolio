@@ -5,10 +5,10 @@ import {Link} from "gatsby";
 
 const NavBar = () => {
   return (
-    <div className="container">
+    <div className="nav-container">
       <nav>
         <div className="actual-nav-bar">
-          <Link to="/"><img src={logo} alt="my very fancy logo" className="image"/></Link>
+          <Link to="/"><img src={logo} alt="my very fancy logo" className="nav-image"/></Link>
           <div className="page-links">
               <Link to="/" className="nav-link-text">portfolio</Link>
               <Link to="/aboutme" className="nav-link-text">about me!</Link>
