@@ -1,0 +1,50 @@
+@import "./typography.css";
+
+@keyframes fade{
+  0% {
+    text-decoration: underline solid white 5px;
+
+  }
+  100% {
+    text-decoration: underline solid #D9DBF1 5px;
+  }
+}
+
+.container {
+  font-size: 16px;
+  margin: 0;
+}
+
+.image {
+  height: 5rem;
+  width: 5rem;
+  padding: 0;
+  margin-top: 1rem;
+  margin-left: 7rem;
+}
+
+.actual-nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.page-links {
+  margin-left: 37rem;
+  padding: 0;
+}
+
+.nav-link-text {
+  font-family: "Spartan Regular", sans-serif;
+  font-size: 24px;
+  color: #839073;
+  justify-content: flex-end;
+  padding-right: 6rem;
+  text-decoration: none;
+}
+
+.nav-link-text:hover {
+  animation: fade 0.5s linear forwards;
+
+}
