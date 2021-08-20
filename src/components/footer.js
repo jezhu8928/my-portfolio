@@ -11,22 +11,22 @@ const Footer = ()=> {
         <div className="actual-footer">
           <h2 id="footer-question">intrigued?</h2>
           <p id="footer-prompt">feel free to reach out!</p>
-          <div className="icon-container">
-            <a href="https://github.com/jezhu8928/">
-              <FontAwesomeIcon icon={faGithub} className="icon"/>
+          <div className="row-icon-container">
+            <a href="https://github.com/jezhu8928/" target="_blank" className="footer-icon-link">
+              <FontAwesomeIcon icon={faGithub} className="footer-icon"/>
             </a>
-            <a href="mailto:jessica.zhu@uwaterloo.ca">
-              <FontAwesomeIcon icon={faEnvelope} className="icon"/>
+            <a href="https://www.linkedin.com/in/jessicajlzhu/" target="_blank" className="footer-icon-link">
+              <FontAwesomeIcon icon={faLinkedin} className="footer-icon"/>
             </a>
-            <a href="https://www.linkedin.com/in/jessicajlzhu/">
-              <FontAwesomeIcon icon={faLinkedin} className="icon"/>
+            <a href="mailto:jessica.zhu@uwaterloo.ca" target="_blank" className="footer-icon-link">
+              <FontAwesomeIcon icon={faEnvelope} className="footer-icon"/>
             </a>
           </div>
-          <div id="copyright">
-            <p>
-              designed and developed with  <FontAwesomeIcon icon={faFrog} id="frog"/>  power
+          <div className="copyright-container">
+            <p className="copyright">
+              designed and developed with  <FontAwesomeIcon icon={faFrog}/>  power
             </p>
-            <p>&copy; jessica zhu 2021</p>
+            <p className="copyright">&copy; jessica zhu 2021</p>
           </div>
         </div>
       </footer>
