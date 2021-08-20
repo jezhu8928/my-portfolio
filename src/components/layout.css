@@ -1,5 +1,6 @@
 @import "./typography.css";
 
+/* ANIMATIONS */
 @keyframes underline-fade{
   0% {
     text-decoration: underline solid white 5px;
@@ -15,45 +16,53 @@
   }
 }
 
+
+/*get rid of margins*/
 * {
   margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
-
+/* GENERAL STYLING */
 h1 {
-  margin-left: 7rem;
+  font-family: "Spartan Black", sans-serif;
+  font-size: 3rem;
+  color: #8E9DCC;
 }
 
+/* NAV BAR STYLING*/
 .nav-container {
   font-family: "Spartan Light", sans-serif;
-  font-size: 16px;
-  height:auto;
-}
-
-.nav-image {
-  height: 5rem;
-  width: 5rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 7rem;
 }
 
 .actual-nav-bar {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav-image-link {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 15rem;
+}
+
+.nav-image {
+  height: 4rem;
+  width: 4rem;
 }
 
 .page-links {
-  margin-left: 37rem;
+  display: flex;
+  justify-content: space-between;
+  width: 30rem;
+  margin-right: 15rem;
 }
 
 .nav-link-text {
-  font-size: 24px;
+  font-size: 1.25rem;
   color: #839073;
-  justify-content: flex-end;
-  margin-right: 6rem;
   text-decoration: none;
 }
 
@@ -62,11 +71,53 @@ h1 {
 
 }
 
+/*PORTFOLIO "HEY!" STYLING*/
 .hey-there-container {
-  background-color: #F9F9ED;
-  height: 100rem;
+  background-color: white;
+  height: 50rem;
 }
 
+/*ABOUT ME STYLING*/
+.bio-container {
+  background-color: white;
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.bio-text {
+}
+
+.bio-blurb {
+  margin-top: 1rem;
+  width: 24rem;
+  font-family: "Spartan Light", sans-serif;
+  font-size: 1.375rem;
+  color: #839073;
+}
+
+.column-icon-container {
+  display: flex;
+  flex-direction: column;
+  width:4.5rem;
+  height: 10rem;
+  margin-left: 17rem;
+  margin-right: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.regular-icon-link {
+  margin-left: 4rem;
+}
+
+.regular-icon {
+  color: #D9DBF1;
+  font-size: 2.5rem;
+}
+
+/* FOOTER STYLING */
 .footer-container {
   background-color: #7D84B2;
 }
@@ -93,27 +144,35 @@ h1 {
   margin-top: 1rem;
 }
 
-.icon-container {
+.row-icon-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
 }
-.icon {
+
+.footer-icon {
   color: #F9F9ED;
+}
+
+.footer-icon-link {
   margin: 1rem 1rem;
   font-size: 2.5rem;
 }
 
-.icon:hover {
+.footer-icon:hover,
+.regular-icon:hover {
   animation: icon-fade 0.4s ease-in-out forwards;
 }
 
-#copyright {
-  font-family: "Spartan Light", sans-serif;
-  font-size: 0.7rem;
-  font-style: italic;
-  color: #DBF4A7;
+.copyright-container {
   margin-bottom: 1rem;
   text-align: center;
+}
+
+.copyright {
+  font-size: 0.7rem;
+  font-family: "Spartan Light", sans-serif;
+  font-style: italic;
+  color: #DBF4A7;
+
 }
