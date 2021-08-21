@@ -4,7 +4,7 @@ import Footer from "./footer.js";
 
 const Layout = ({pageTitle, children}) => {
   return (
-    <div>
+    <div className="page">
       <title>{pageTitle} | jessica zhu</title>
       <NavBar/>
       <main>
