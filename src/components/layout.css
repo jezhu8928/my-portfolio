@@ -156,10 +156,12 @@ ul {
 }
 
 .experience {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   border-left: 0px solid white;
   padding-left: 0rem;
+  width: 70%;
+
   transition: padding-left 0.5s, border 0.5s;
 }
 
@@ -193,7 +195,6 @@ ul {
   font-family: "Spartan Light", sans-serif;
   font-size: 1rem;
   color: #909C81;
-  width: 70%
 }
 
 .education-section {
