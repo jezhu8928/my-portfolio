@@ -2,9 +2,6 @@
 
 /* ANIMATIONS */
 
-
-
-
 /*get rid of margins*/
 * {
   margin: 0;
@@ -42,6 +39,10 @@ hr {
 
 ul {
   list-style-type: circle;
+}
+
+a {
+  text-decoration: none;
 }
 
 .subheadings {
@@ -105,7 +106,6 @@ ul {
 .hey-there-text {
   display: flex;
   flex-direction: column;
-  margin-right: 2rem;
 }
 
 .hey-there {
@@ -132,6 +132,7 @@ ul {
   font-family: "Spartan Light", sans-serif;
   font-size: 0.8rem;
   color: #7D84B2;
+  text-decoration: underline;
 }
 
 .box {
@@ -142,6 +143,8 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 20rem;
+  margin-left: auto;
 }
 
 .inner-box {
@@ -149,6 +152,95 @@ ul {
   height: 18rem;
   border: 4px solid white;
 }
+
+.portfolio-container {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.work-cases {
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-top: 1rem;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-projects {
+  margin-left: 20rem;
+  margin-top: 2rem;
+  margin-right: 20rem;
+}
+
+.room-for-growth {
+  border-radius: 39px;
+  width: 49rem;
+  height: 16rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:flex-end;
+}
+
+.case-card {
+  border-radius: 39px;
+  width: 49rem;
+  height: 15rem;
+  box-shadow: 0 0 5px 0px #909C81;
+  margin-bottom: 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: box-shadow 0.4s, margin-bottom 0.4s;
+}
+
+.case-card-image {
+  border-top-left-radius: 39px;
+  border-bottom-left-radius: 39px;
+  width: 33rem;
+  height: 15rem;
+  background-color: lightgrey;
+}
+
+.case-card-textbox {
+  width: 16rem;
+  height: 15rem;
+  background-color: white;
+  border-top-right-radius: 39px;
+  border-bottom-right-radius: 39px;
+}
+
+.case-study-title {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+
+  text-align: left;
+  color: #7D84B2;
+}
+
+.case-study-tags {
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-family: "Spartan Light", sans-serif;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #839073;
+}
+
+.case-card:hover {
+  box-shadow: 0 0px 5px 2px #DBF4A7;
+  margin-bottom: 1rem;
+}
+
 
 /*ABOUT ME STYLING*/
 .bio-container {
@@ -222,7 +314,7 @@ ul {
   border-left: 4px solid #DBF4A7;
 }
 
-.experience-title {
+.experience-title, .case-study-title {
   font-family: "Spartan Semibold", sans-serif;
   font-size: 1.25rem;
 }

@@ -22,6 +22,61 @@ const HomePage = () => {
         </div>
         <div className="box"><div className="inner-box"></div></div>
       </div>
+      <div className="portfolio-container">
+        <div className="work-cases">
+          <h2 className="subheadings">work</h2>
+
+          <article className="room-for-growth">
+            <a href="https://sphenoid-waterfall-b15.notion.site/what-I-ve-been-doing-lately-602e5580568b41568d64fedc8c9dfadd" target="_blank">
+              <div className="case-card" >
+                <div className="case-card-image"></div>
+                <div className="case-card-textbox">
+                  <h3 className="case-study-title">mitigating the ripple effects of fake news</h3>
+                  <h4 className="case-study-title date">company</h4>
+                  <p className="case-study-tags">
+                    product thinking, design
+                  </p>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article className="room-for-growth">
+            <a href="https://sphenoid-waterfall-b15.notion.site/what-I-ve-been-doing-lately-602e5580568b41568d64fedc8c9dfadd" target="_blank">
+              <div className="case-card" >
+                <div className="case-card-image"></div>
+                <div className="case-card-textbox">
+                  <h3 className="case-study-title">a stats app for casuals</h3>
+                  <h4 className="case-study-title date">company</h4>
+                  <p className="case-study-tags">
+                    product thinking, design
+                  </p>
+                </div>
+              </div>
+            </a>
+          </article>
+
+        </div>
+        <div className="side-projects">
+          <h2 className="subheadings">side projects</h2>
+
+          <article className="room-for-growth">
+            <a href="https://sphenoid-waterfall-b15.notion.site/what-I-ve-been-doing-lately-602e5580568b41568d64fedc8c9dfadd" target="_blank">
+              <div className="case-card" >
+                <div className="case-card-image"></div>
+                <div className="case-card-textbox">
+                  <h3 className="case-study-title">a stats app for casuals</h3>
+                  <h4 className="case-study-title date">company</h4>
+                  <p className="case-study-tags">
+                    product thinking, design
+                  </p>
+                </div>
+              </div>
+            </a>
+          </article>
+
+        </div>
+      </div>
     </Layout>
   )
 }
