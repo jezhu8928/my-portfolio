@@ -1,6 +1,5 @@
 import * as React from "react";
 import "./layout.css";
-import logo from "../images/logo.png";
 import {Link} from "gatsby";
 
 const NavBar = ({currentPage}) => {
