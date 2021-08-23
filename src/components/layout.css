@@ -3,11 +3,15 @@
 /* ANIMATIONS */
 
 /*get rid of margins*/
+
 * {
   margin: 0;
-  box-sizing: border-box;
+}
+
+body {
   font-family: "Spartan", sans-serif;
-  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 /* GENERAL STYLING */
@@ -40,6 +44,7 @@ hr {
   height: 0.25rem;
   background-color: #DBF4A7;
   border:none;
+  margin-bottom: 3rem;
 }
 
 ul {
@@ -61,18 +66,25 @@ a {
 /* NAV BAR STYLING*/
 .nav-container {
   font-weight: 400;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
 }
 
 .actual-nav-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 49rem;
 }
 
 .nav-image-link {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  margin-left: 15rem;
 }
 
 .logo {
@@ -100,8 +112,7 @@ a {
 .page-links {
   display: flex;
   justify-content: space-between;
-  width: 30rem;
-  margin-right: 15rem;
+  width: 24rem;
 }
 
 .nav-link-text {
@@ -146,6 +157,12 @@ a {
   font-weight: 300;
   color: #839073;
   font-size: 1.1rem;
+}
+
+.regular-icon {
+  color: #D9DBF1;
+  font-size: 2.5rem;
+  transition: color 0.4s;
 }
 
 .box {
@@ -255,49 +272,31 @@ a {
 .bio-container {
   background-color: white;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.column-icon-container {
-  display: flex;
-  flex-direction: column;
-  width:2.5rem;
-  height: 10rem;
-  margin-right: 1.25rem;
-  justify-content: space-between;
+  flex-direction: row;
   align-items: center;
-  align-self: flex-start;
+  justify-content: space-between;
+  width: 49rem;
+  margin: auto;
+  padding: 3rem 0;
 }
 
 .bio-blurb {
-  margin-top: 1rem;
-  width: 26rem;
+  margin-top: 0.75rem;
   text-align: left;
   font-family: "Spartan", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.2rem;
   color: #839073;
 }
-
-.regular-icon-link {
-  margin-left: 4rem;
-}
-
-.regular-icon {
-  color: #D9DBF1;
-  font-size: 2.5rem;
-  transition: color 0.4s;
+.bio-text {
+  width: 27rem;
 }
 
 .bio-image-container {
-  margin-left: 1.25rem;
 }
 
 .bio-image {
-  width: 18rem;
+  width: 20rem;
   box-shadow: 0 2px 5px 0px #909C81;
 }
 
@@ -306,6 +305,8 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 49rem;
+  margin: auto;
 }
 
 .experience {
@@ -313,8 +314,9 @@ a {
   margin-bottom: 2rem;
   border-left: 0px solid white;
   padding-left: 0rem;
-  width: auto;
+  width: 49rem;
   transition: padding-left 0.5s, border 0.5s;
+  background-color: #F9F9ED;
 }
 
 .experience:hover {
@@ -422,4 +424,58 @@ a {
 
 .home-icons .home-icon-link {
   margin-right: 2rem;
+}
+
+/*responsive stuff*/
+
+@media screen and (max-width: 790px){
+  html {
+    font-size: 15px;
+  }
+
+
+  .actual-nav-bar {
+    flex-direction: column;
+  }
+
+
+  .bio-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+
+  .bio-text {
+    width: 100%;
+  }
+
+  .page-links {
+    margin-top: 1.5rem;
+  }
+
+  .bio-image-container {
+    margin-top: 2rem;
+  }
+
+  .resumeish {
+    width: 80%
+  }
+
+  .experience, .education-section, .experience-section {
+    width: 100%;
+  }
+
+}
+
+
+@media screen and (max-width: 425px) {
+  .page-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-link-text {
+    margin: 2rem 0;
+  }
 }
