@@ -6,15 +6,20 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
   font-size: 16px;
 }
 
 /* GENERAL STYLING */
 h1 {
-  font-family: "Spartan", sans-serif;
   font-weight: 900;
   font-size: 3rem;
   color: #8E9DCC;
+}
+
+.big-text {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
 }
 
 figure {
@@ -22,7 +27,6 @@ figure {
 }
 
 figcaption {
-  font-family: "Spartan", sans-serif;
   font-weight: 300;
   font-size: 0.8rem;
   margin-top: 0.5rem;
@@ -47,7 +51,6 @@ a {
 }
 
 .subheadings {
-  font-family: "Spartan", sans-serif;
   font-weight: 700;
   font-size: 1.75rem;
   color: #839073;
@@ -57,7 +60,6 @@ a {
 
 /* NAV BAR STYLING*/
 .nav-container {
-  font-family: "Spartan", sans-serif;
   font-weight: 400;
 }
 
@@ -81,14 +83,18 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 0.4s;
 }
 
 .logo-initials {
-  font-family: "Spartan", sans-serif;
   font-weight: 700;
   font-size: 2.3rem;
   text-align: center;
   color: white;
+}
+
+.logo:hover {
+  background-color: #DBF4A7;
 }
 
 .page-links {
@@ -115,46 +121,31 @@ a {
 
 /*PORTFOLIO "HEY!" STYLING*/
 .hey-there-container {
-  background-color: white;
   margin-top: 3rem;
   margin-bottom: 3rem;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.hey-there {
+  align-self: flex-start;
 }
 
 .hey-there-text {
+  height: 20rem;
   display: flex;
   flex-direction: column;
-}
-
-.hey-there {
-  margin-left: 20rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .hey-there-blurb {
-  margin-left: 20rem;
-  width: 28rem;
-  font-family: "Spartan", sans-serif;
+  width: 27rem;
   font-weight: 300;
   color: #839073;
   font-size: 1.1rem;
-}
-
-.home-link-container {
-  margin-left: 20rem;
-  margin-top: 1rem;
-  width: 20rem;
-  display: flex;
-  justify-content: space-between;
-}
-
-.home-link {
-  font-family: "Spartan", sans-serif;
-  font-weight: 300;
-  font-size: 0.8rem;
-  color: #7D84B2;
-  text-decoration: underline;
 }
 
 .box {
@@ -164,8 +155,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 20rem;
-  margin-left: auto;
+  margin-left: 2rem;
 }
 
 .inner-box {
@@ -179,22 +169,20 @@ a {
   margin-bottom: 3rem;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .work-cases {
-  margin-left: 20rem;
-  margin-right: 20rem;
   margin-top: 1rem;
   width: auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .side-projects {
-  margin-left: 20rem;
   margin-top: 2rem;
-  margin-right: 20rem;
 }
 
 .room-for-growth {
@@ -228,6 +216,7 @@ a {
   width: 33rem;
   height: 15rem;
   background-color: lightgrey;
+  flex-shrink: 3;
 }
 
 .case-card-textbox {
@@ -251,7 +240,6 @@ a {
     margin-top: 4rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    font-family: "Spartan", sans-serif;
     font-weight: 300;
     font-size: 0.8rem;
     font-style: italic;
@@ -263,12 +251,12 @@ a {
   margin-bottom: 0.5rem;
 }
 
-
 /*ABOUT ME STYLING*/
 .bio-container {
   background-color: white;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
@@ -278,8 +266,7 @@ a {
   flex-direction: column;
   width:2.5rem;
   height: 10rem;
-  margin-left: 15rem;
-  margin-right: 2.5rem;
+  margin-right: 1.25rem;
   justify-content: space-between;
   align-items: center;
   align-self: flex-start;
@@ -287,7 +274,7 @@ a {
 
 .bio-blurb {
   margin-top: 1rem;
-  width: 27rem;
+  width: 26rem;
   text-align: left;
   font-family: "Spartan", sans-serif;
   font-weight: 300;
@@ -306,20 +293,19 @@ a {
 }
 
 .bio-image-container {
-  margin-left: auto;
-  margin-right: 20rem;
+  margin-left: 1.25rem;
 }
 
 .bio-image {
-  width: 19rem;
+  width: 18rem;
   box-shadow: 0 2px 5px 0px #909C81;
 }
 
 .resumeish{
   margin-top: 3rem;
-  margin-left: 20rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .experience {
@@ -327,8 +313,7 @@ a {
   margin-bottom: 2rem;
   border-left: 0px solid white;
   padding-left: 0rem;
-  width: 70%;
-
+  width: auto;
   transition: padding-left 0.5s, border 0.5s;
 }
 
@@ -338,7 +323,6 @@ a {
 }
 
 .experience-title, .case-study-title {
-  font-family: "Spartan", sans-serif;
   font-weight: 500;
   font-size: 1.25rem;
 }
@@ -353,7 +337,6 @@ a {
 
 .date {
   color: #D9DBF1;
-  font-family: "Spartan", sans-serif;
   font-weight: 400;
   font-size: 0.9rem;
   margin-top: 0.6rem;
@@ -361,15 +344,14 @@ a {
 }
 
 .experience-description {
-  font-family: "Spartan", sans-serif;
   font-weight: 300;
   font-size: 1rem;
   color: #909C81;
 }
 
-.education-section {
-  margin-top: 1.5rem;
+.education-section, .experience-section {
   margin-bottom: 1.5rem;
+  width: 49rem;
 }
 
 /* FOOTER STYLING */
@@ -387,14 +369,12 @@ a {
 
 #footer-question {
   font-size: 2rem;
-  font-family: "Spartan", sans-serif;
   font-weight: 600;
   color: white;
   margin-top: 2rem;
 }
 
 #footer-prompt {
-  font-family: "Spartan", sans-serif;
   font-weight: 300;
   font-size: 1.125rem;
   color: #F9F9ED;
@@ -429,7 +409,17 @@ a {
 
 .copyright {
   font-size: 0.7rem;
-  font-family: "Spartan", sans-serif;
   font-weight: 300;
   color: #DBF4A7;
+}
+
+.home-icons {
+  width: 27rem;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1.5rem;
+}
+
+.home-icons .home-icon-link {
+  margin-right: 2rem;
 }
