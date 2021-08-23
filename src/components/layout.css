@@ -161,7 +161,6 @@ a {
   width: 20rem;
   height: 20rem;
   background-color: ivory;
-  box-shadow: 0 2px 5px 0px #909C81;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -201,7 +200,7 @@ a {
 .room-for-growth {
   border-radius: 39px;
   width: 49rem;
-  height: 16rem;
+  height: 15.5rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
   display: flex;
@@ -214,13 +213,13 @@ a {
   border-radius: 39px;
   width: 49rem;
   height: 15rem;
-  box-shadow: 0 0 5px 0px #909C81;
+  box-shadow: 2px 2px 4px 0px #909C81;
   margin-bottom: 0rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  transition: box-shadow 0.4s, margin-bottom 0.4s;
+  transition: box-shadow 0.3s, margin-bottom 0.3s;
 }
 
 .case-card-image {
@@ -260,8 +259,8 @@ a {
 }
 
 .case-card:hover {
-  box-shadow: 0 0px 5px 2px #DBF4A7;
-  margin-bottom: 1rem;
+  box-shadow: 2px 2px 4px 0px #DBF4A7;
+  margin-bottom: 0.5rem;
 }
 
 
@@ -340,7 +339,7 @@ a {
 
 .experience-title, .case-study-title {
   font-family: "Spartan", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.25rem;
 }
 
