@@ -42,9 +42,6 @@ const AboutPage = () => {
             feugiat et volutpat vel, aliquet eget mauris. Vestibulum
             ante ipsum primis in faucibus orci luctus
             et ultrices posuere cubilia curae; Etiam felis metus.
-            <br/><br/>
-            Vestibulum ante ipsum primis in faucibus orci luctus
-            et ultrices posuere.
           </p>
         </div>
         <div className="bio-image-container">
@@ -57,7 +54,7 @@ const AboutPage = () => {
       <hr/>
       <div className="resumeish">
         <div className="experience-section">
-        <h2 className="subheadings">experience</h2>
+          <h2 className="subheadings">experience</h2>
           <Experience location="shad" position="participant" date="summer 2020">
             <li>led design team in creation of</li>
           </Experience>
