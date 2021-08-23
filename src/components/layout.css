@@ -11,7 +11,8 @@
 
 /* GENERAL STYLING */
 h1 {
-  font-family: "Spartan Black", sans-serif;
+  font-family: "Spartan", sans-serif;
+  font-weight: 900;
   font-size: 3rem;
   color: #8E9DCC;
 }
@@ -21,10 +22,10 @@ figure {
 }
 
 figcaption {
-  font-family: "Spartan Light", sans-serif;
+  font-family: "Spartan", sans-serif;
+  font-weight: 300;
   font-size: 0.8rem;
   margin-top: 0.5rem;
-  font-style: italic;
   color:#8E9DCC;
 }
 
@@ -46,7 +47,8 @@ a {
 }
 
 .subheadings {
-  font-family: "Spartan Bold", sans-serif;
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
   font-size: 1.75rem;
   color: #839073;
 
@@ -55,7 +57,8 @@ a {
 
 /* NAV BAR STYLING*/
 .nav-container {
-  font-family: "Spartan Light", sans-serif;
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
 }
 
 .actual-nav-bar {
@@ -115,7 +118,8 @@ a {
 .hey-there-blurb {
   margin-left: 20rem;
   width: 28rem;
-  font-family: "Spartan Light", sans-serif;
+  font-family: "Spartan", sans-serif;
+  font-weight: 300;
   color: #839073;
   font-size: 1.1rem;
 }
@@ -129,7 +133,8 @@ a {
 }
 
 .home-link {
-  font-family: "Spartan Light", sans-serif;
+  font-family: "Spartan", sans-serif;
+  font-weight: 300;
   font-size: 0.8rem;
   color: #7D84B2;
   text-decoration: underline;
@@ -230,7 +235,8 @@ a {
     margin-top: 4rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    font-family: "Spartan Light", sans-serif;
+    font-family: "Spartan", sans-serif;
+    font-weight: 300;
     font-size: 0.8rem;
     font-style: italic;
     color: #839073;
@@ -267,7 +273,8 @@ a {
   margin-top: 1rem;
   width: 27rem;
   text-align: left;
-  font-family: "Spartan Light", sans-serif;
+  font-family: "Spartan", sans-serif;
+  font-weight: 300;
   font-size: 1.2rem;
   color: #839073;
 }
@@ -315,7 +322,8 @@ a {
 }
 
 .experience-title, .case-study-title {
-  font-family: "Spartan Semibold", sans-serif;
+  font-family: "Spartan", sans-serif;
+  font-weight: 600;
   font-size: 1.25rem;
 }
 
@@ -329,14 +337,16 @@ a {
 
 .date {
   color: #D9DBF1;
-  font-family: "Spartan Regular", sans-serif;
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
   font-size: 0.9rem;
   margin-top: 0.6rem;
   margin-bottom: 0.6rem;
 }
 
 .experience-description {
-  font-family: "Spartan Light", sans-serif;
+  font-family: "Spartan", sans-serif;
+  font-weight: 300;
   font-size: 1rem;
   color: #909C81;
 }
@@ -361,13 +371,15 @@ a {
 
 #footer-question {
   font-size: 2rem;
-  font-family: "Spartan Semibold", sans-serif;
+  font-family: "Spartan", sans-serif;
+  font-weight: 600;
   color: white;
   margin-top: 2rem;
 }
 
 #footer-prompt {
-  font-family: "Spartan Light", sans-serif;
+  font-family: "Spartan", sans-serif;
+  font-weight: 300;
   font-size: 1.125rem;
   color: #F9F9ED;
   margin-top: 1rem;
@@ -401,7 +413,7 @@ a {
 
 .copyright {
   font-size: 0.7rem;
-  font-family: "Spartan Light", sans-serif;
-  font-style: italic;
+  font-family: "Spartan", sans-serif;
+  font-weight: 300;
   color: #DBF4A7;
 }
