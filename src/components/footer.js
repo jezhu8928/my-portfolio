@@ -12,13 +12,13 @@ const Footer = ()=> {
           <h2 id="footer-question">intrigued?</h2>
           <p id="footer-prompt">feel free to reach out!</p>
           <div className="row-icon-container">
-            <a href="https://github.com/jezhu8928/" target="_blank" className="footer-icon-link">
+            <a href="https://github.com/jezhu8928/" target="_blank" rel="noreferrer" className="footer-icon-link">
               <FontAwesomeIcon icon={faGithub} className="footer-icon"/>
             </a>
-            <a href="https://www.linkedin.com/in/jessicajlzhu/" target="_blank" className="footer-icon-link">
+            <a href="https://www.linkedin.com/in/jessicajlzhu/" target="_blank" rel="noreferrer" className="footer-icon-link">
               <FontAwesomeIcon icon={faLinkedin} className="footer-icon"/>
             </a>
-            <a href="mailto:jessica.zhu@uwaterloo.ca" target="_blank" className="footer-icon-link">
+            <a href="mailto:jessica.zhu@uwaterloo.ca" target="_blank" rel="noreferrer" className="footer-icon-link">
               <FontAwesomeIcon icon={faEnvelope} className="footer-icon"/>
             </a>
           </div>

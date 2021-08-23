@@ -20,13 +20,13 @@ const HomePage = () => {
             Fusce ut vestibulum diam, eget tempus risus.
           </p>
           <div className="home-icons">
-            <a href="https://github.com/jezhu8928/" target="_blank" className="home-icon-link">
+            <a href="https://github.com/jezhu8928/" target="_blank" rel="noreferrer" className="home-icon-link">
               <FontAwesomeIcon icon={faGithub} className="regular-icon"/>
             </a>
-            <a href="https://www.linkedin.com/in/jessicajlzhu/" target="_blank" className="home-icon-link">
+            <a href="https://www.linkedin.com/in/jessicajlzhu/" target="_blank" rel="noreferrer" className="home-icon-link">
               <FontAwesomeIcon icon={faLinkedin} className="regular-icon"/>
             </a>
-            <a href="mailto:jessica.zhu@uwaterloo.ca" target="_blank" className="home-icon-link">
+            <a href="mailto:jessica.zhu@uwaterloo.ca" target="_blank" rel="noreferrer" className="home-icon-link">
               <FontAwesomeIcon icon={faEnvelope} className="regular-icon"/>
             </a>
           </div>
