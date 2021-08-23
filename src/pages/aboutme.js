@@ -1,5 +1,6 @@
 import * as React from "react";
 import Layout from "../components/layout";
+import Experience from "../components/entries.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope} from "@fortawesome/free-solid-svg-icons";
@@ -48,7 +49,7 @@ const AboutPage = () => {
         </div>
         <div className="bio-image-container">
           <figure>
-            <img src={bballPic} alt="a sick picture of me playing basketball" className="bio-image"/>
+            <img src={bballPic} alt="me playing basketball" className="bio-image"/>
             <figcaption>placeholder caption</figcaption>
           </figure>
         </div>
@@ -57,58 +58,27 @@ const AboutPage = () => {
       <div className="resumeish">
         <div className="experience-section">
         <h2 className="subheadings">experience</h2>
-          <article className="experience">
-            <span className="location experience-title">spartahacks IV</span><span className="experience-title position"> &mdash; event organizer</span>
-            <h3 className="date">november 2018 - december 2019</h3>
-            <ul className="experience-description">
-              <li>Curabitur dolor lorem, posuere at interdum vel, vehicula id neque.</li>
-              <li>Etiam felis metus, feugiat et volutpat vel, aliquet eget mauris. feugiat et volutpat vel, aliquet eget mauris.</li>
-              <li>Sed id orci lobortis erat ornare tincidunt.</li>
-            </ul>
-          </article>
+          <Experience location="shad" position="participant" date="summer 2020">
+            <li>led design team in creation of</li>
+          </Experience>
+          <Experience location="spartahacks" position="event organizer" date="november 2018-december 2019">
+            <li>hosted hackathon for ~100 participants</li>
+          </Experience>
+          <Experience location="varsity girls volleyball team" position="mvp right side, left side, setter" date="dec 2019-feb 2020">
+            <li>played variety of positions</li>
+          </Experience>
 
-          <article className="experience">
-            <span className="location experience-title">spartahacks IV</span><span className="experience-title position"> &mdash; event organizer</span>
-            <h3 className="date">november 2018 - december 2019</h3>
-            <ul className="experience-description">
-              <li>Curabitur dolor lorem, posuere at interdum vel, vehicula id neque.</li>
-              <li>Etiam felis metus, feugiat et volutpat vel, aliquet eget mauris. feugiat et volutpat vel, aliquet eget mauris.</li>
-              <li>Sed id orci lobortis erat ornare tincidunt.</li>
-            </ul>
-          </article>
-
-          <article className="experience">
-            <span className="location experience-title">spartahacks IV</span><span className="experience-title position"> &mdash; event organizer</span>
-            <h3 className="date">november 2018 - december 2019</h3>
-            <ul className="experience-description">
-              <li>Curabitur dolor lorem, posuere at interdum vel, vehicula id neque.</li>
-              <li>Etiam felis metus, feugiat et volutpat vel, aliquet eget mauris. feugiat et volutpat vel, aliquet eget mauris.</li>
-              <li>Sed id orci lobortis erat ornare tincidunt.</li>
-            </ul>
-          </article>
         </div>
-
         <div className="education-section">
           <h2 className="subheadings">education</h2>
-          <article className="experience">
-            <span className="location experience-title">spartahacks IV</span><span className="experience-title position"> &mdash; event organizer</span>
-            <h3 className="date">november 2018 - december 2019</h3>
-            <ul className="experience-description">
-              <li>Curabitur dolor lorem, posuere at interdum vel, vehicula id neque.</li>
-              <li>Etiam felis metus, feugiat et volutpat vel, aliquet eget mauris. feugiat et volutpat vel, aliquet eget mauris.</li>
-              <li>Sed id orci lobortis erat ornare tincidunt.</li>
-            </ul>
-          </article>
-
-          <article className="experience">
-            <span className="location experience-title">spartahacks IV</span><span className="experience-title position"> &mdash; event organizer</span>
-            <h3 className="date">november 2018 - december 2019</h3>
-            <ul className="experience-description">
-              <li>Curabitur dolor lorem, posuere at interdum vel, vehicula id neque.</li>
-              <li>Etiam felis metus, feugiat et volutpat vel, aliquet eget mauris. feugiat et volutpat vel, aliquet eget mauris.</li>
-              <li>Sed id orci lobortis erat ornare tincidunt.</li>
-            </ul>
-          </article>
+          <Experience location="university of waterloo" position="BASc. candidate" date="november 2018-december 2019">
+            <li>hosted hackathon for ~100 participants</li>
+          </Experience>
+          <Experience location="centennial cvi" position="high school" date="november 2018-december 2019">
+            <li>graduated with a grade 12 average of 99.8%</li>
+            <li>earned <b>top scholar</b> from grades 9-12 (top average award)</li>
+            <li>relevant extra-curriculars: cs club, chemistry club</li>
+          </Experience>
         </div>
       </div>
     </Layout>
