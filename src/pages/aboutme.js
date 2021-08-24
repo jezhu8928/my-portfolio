@@ -1,9 +1,6 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import Experience from "../components/entries.js";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope} from "@fortawesome/free-solid-svg-icons";
 
 import bballPic from "../images/bball.jpeg";
 

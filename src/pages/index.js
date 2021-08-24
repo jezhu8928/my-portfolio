@@ -35,13 +35,13 @@ const HomePage = () => {
       </div>
       <div className="portfolio-container">
         <div className="work-cases">
-          <h2 className="subheadings">work</h2>
+          <h2 className="subheadings case-heading">work</h2>
           <CaseStudy pageLink="https://www.theringer.com/" title="making reading fun again" company="just for lolz" tags="react, js"/>
           <CaseStudy pageLink="https://www.theringer.com/" title="making reading fun again" company="just for lolz" tags="react, js"/>
           <CaseStudy pageLink="https://www.theringer.com/" title="making reading fun again" company="just for lolz" tags="react, js"/>
         </div>
         <div className="side-projects">
-          <h2 className="subheadings">side projects</h2>
+          <h2 className="subheadings case-heading">side projects</h2>
           <CaseStudy pageLink="https://www.theringer.com/" title="making reading fun again" company="just for lolz" tags="react, js"/>
         </div>
       </div>
