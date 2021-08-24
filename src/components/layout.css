@@ -308,7 +308,7 @@ nav {
   padding-left: 0rem;
   width: 49rem;
   transition: padding-left 0.5s, border 0.5s;
-  background-color: #F9F9ED;
+  background-color: #FDFDF8;
 }
 
 .experience:hover {
