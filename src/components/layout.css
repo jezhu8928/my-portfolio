@@ -387,7 +387,7 @@ nav {
 }
 
 .footer-icon:hover,
-.regular-icon:hover {
+.regular-icon:hover, {
   color: #DBF4A7;
 }
 
@@ -411,6 +411,31 @@ nav {
 
 .home-icon-link {
   margin-right: 2rem;
+}
+
+/*404 page styles*/
+.help-container {
+  margin: auto;
+  padding: 3rem;
+  width: 55%;
+  height: 23rem;
+}
+
+.help-message {
+  color: #839073;
+  font-size: 2rem;
+}
+
+.help-instruction {
+  color: #7D84B2;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.help-link {
+  transition: color 0.3s;
+  color: #839073;
+  text-decoration: underline solid 3px #7D84B2;
 }
 
 /*responsive stuff*/
