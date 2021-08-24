@@ -2,9 +2,10 @@ import * as React from "react";
 import Layout from "../components/layout.js";
 import "../components/layout.css";
 import CaseStudy from "../components/casestudy.js";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import matcha from "../images/matcha.png";
 
 
 const HomePage = () => {
@@ -31,7 +32,7 @@ const HomePage = () => {
             </a>
           </div>
         </div>
-        <div className="box"></div>
+        <div className="box"><img src={matcha} alt="matcha"/></div>
       </div>
       <div className="portfolio-container">
         <div className="work-cases">
