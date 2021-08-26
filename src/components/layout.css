@@ -101,7 +101,7 @@ nav {
   font-weight: 700;
   font-size: 2.3rem;
   text-align: center;
-  color: white;
+  color: #FFFFFF;
 }
 
 .logo:hover {
@@ -117,7 +117,7 @@ nav {
 .nav-link-text {
   font-size: 1.25rem;
   color: #839073;
-  text-decoration: underline solid white 0.3125rem;
+  text-decoration: underline solid #FFFFFF 0.3125rem;
   transition: text-decoration 0.6s;
 }
 
@@ -224,13 +224,13 @@ nav {
   border-bottom-left-radius: 39px;
   width: 33rem;
   height: 15rem;
-  background-color: lightgrey;
+  background-color: #839073;
 }
 
 .case-card-textbox {
   width: 16rem;
   height: 15rem;
-  background-color: white;
+  background-color: #FFFFFF;
   border-top-right-radius: 39px;
   border-bottom-right-radius: 39px;
 }
@@ -261,7 +261,7 @@ nav {
 
 /*ABOUT ME STYLING*/
 .bio-container {
-  background-color: white;
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -299,7 +299,7 @@ nav {
 .experience {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  border-left: 0px solid white;
+  border-left: 0px solid #FFFFFF;
   padding-left: 0rem;
   width: 49rem;
   transition: padding-left 0.5s, border 0.5s;
@@ -359,7 +359,7 @@ nav {
 #footer-question {
   font-size: 2rem;
   font-weight: 600;
-  color: white;
+  color: #FFFFFF;
   margin-top: 2rem;
 }
 
