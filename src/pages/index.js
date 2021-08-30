@@ -18,8 +18,6 @@ const HomePage = () => {
             🙃 first year systems design engineering student @ uWaterloo
             <br/>
             🧐 seeking internships for winter 2022
-            <br/><br/>
-            keep up with what I've been designing and developing below...
           </p>
           <div className="home-icons">
             <a href="https://github.com/jezhu8928/" target="_blank" rel="noreferrer" className="home-icon-link">
