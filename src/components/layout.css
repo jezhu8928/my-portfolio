@@ -276,7 +276,7 @@ nav {
   text-align: left;
   font-family: "Spartan", sans-serif;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   color: #839073;
 }
 .bio-text {
@@ -285,6 +285,15 @@ nav {
 .bio-image {
   width: 20rem;
   box-shadow: 0 2px 5px 0px #909C81;
+}
+
+.about-me-link {
+  color: #7D84B2;
+}
+
+.recommendation {
+  color: #7D84B2;
+
 }
 
 .resumeish{
@@ -388,7 +397,7 @@ nav {
 
 .footer-icon:hover,
 .regular-icon:hover, {
-  color: #000000;
+  color: #DBF4A7;
 }
 
 .copyright-container {
