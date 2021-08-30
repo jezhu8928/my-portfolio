@@ -19,7 +19,7 @@ const AboutPage = () => {
 
             <br/><br/>
             in my free time, you'll find me <a
-              href="https://sphenoid-waterfall-b15.notion.site/hey-it-s-crochet-060421cf12484c72b1c335657563f990"
+              href="https://www.notion.so/jesszhu/hey-it-s-crochet-060421cf12484c72b1c335657563f990"
               target="_blank"
               rel="noreferrer"
               className="about-me-link"

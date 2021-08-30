@@ -36,11 +36,11 @@ const HomePage = () => {
       <div className="portfolio-container">
         <div className="work-cases">
           <h2 className="subheadings case-heading">work</h2>
-          <CaseStudy pageLink="https://sphenoid-waterfall-b15.notion.site/coming-soon-0de1e3a496da4f69bd92bcb23a2dce2e" title="coming soon..." company="n/a" tags="patience is requested"/>
+          <CaseStudy pageLink="https://www.notion.so/jesszhu/coming-soon-0de1e3a496da4f69bd92bcb23a2dce2e" title="coming soon..." company="n/a" tags="patience is requested"/>
         </div>
         <div className="side-projects">
           <h2 className="subheadings case-heading">side projects</h2>
-          <CaseStudy pageLink="https://sphenoid-waterfall-b15.notion.site/coming-soon-0de1e3a496da4f69bd92bcb23a2dce2e" title="coming soon..." company="n/a" tags="patience is requested"/>
+          <CaseStudy pageLink="https://www.notion.so/jesszhu/coming-soon-0de1e3a496da4f69bd92bcb23a2dce2e" title="coming soon..." company="n/a" tags="patience is requested"/>
         </div>
       </div>
     </Layout>
