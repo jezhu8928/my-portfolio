@@ -15,10 +15,11 @@ const HomePage = () => {
         <div className="hey-there-text">
           <h1 className="hey-there big-text">jessica zhu</h1>
           <p className="hey-there-blurb">
-            Aliquam interdum augue vel augue porta,
-            in pellentesque nunc molestie. Cras quis magna
-            ac risus auctor placerat vel vel ligula.
-            Fusce ut vestibulum diam, eget tempus risus.
+            🙃 first year systems design engineering student @ uWaterloo
+            <br/>
+            🧐 seeking internships for winter 2022
+            <br/><br/>
+            keep up with what I've been designing and developing below...
           </p>
           <div className="home-icons">
             <a href="https://github.com/jezhu8928/" target="_blank" rel="noreferrer" className="home-icon-link">
@@ -37,13 +38,11 @@ const HomePage = () => {
       <div className="portfolio-container">
         <div className="work-cases">
           <h2 className="subheadings case-heading">work</h2>
-          <CaseStudy pageLink="https://www.theringer.com/" title="making reading fun again" company="just for lolz" tags="react, js"/>
-          <CaseStudy pageLink="https://www.theringer.com/" title="making reading fun again" company="just for lolz" tags="react, js"/>
-          <CaseStudy pageLink="https://www.theringer.com/" title="making reading fun again" company="just for lolz" tags="react, js"/>
+          <CaseStudy pageLink="https://sphenoid-waterfall-b15.notion.site/coming-soon-0de1e3a496da4f69bd92bcb23a2dce2e" title="coming soon..." company="n/a" tags="patience is requested"/>
         </div>
         <div className="side-projects">
           <h2 className="subheadings case-heading">side projects</h2>
-          <CaseStudy pageLink="https://www.theringer.com/" title="making reading fun again" company="just for lolz" tags="react, js"/>
+          <CaseStudy pageLink="https://sphenoid-waterfall-b15.notion.site/coming-soon-0de1e3a496da4f69bd92bcb23a2dce2e" title="coming soon..." company="n/a" tags="patience is requested"/>
         </div>
       </div>
     </Layout>

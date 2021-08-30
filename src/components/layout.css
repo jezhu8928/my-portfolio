@@ -156,7 +156,7 @@ nav {
 .hey-there-blurb {
   font-weight: 400;
   color: #839073;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .regular-icon {
@@ -224,7 +224,7 @@ nav {
   border-bottom-left-radius: 39px;
   width: 33rem;
   height: 15rem;
-  background-color: #839073;
+  background-color: #E9EAEF;
 }
 
 .case-card-textbox {
@@ -388,7 +388,7 @@ nav {
 
 .footer-icon:hover,
 .regular-icon:hover, {
-  color: #DBF4A7;
+  color: #000000;
 }
 
 .copyright-container {
