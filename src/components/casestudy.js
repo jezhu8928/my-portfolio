@@ -4,7 +4,7 @@ import "./layout.css";
 const CaseStudy = ({pageLink, image, title, company, tags}) => {
   return (
     <article className="room-for-growth">
-      <a href={pageLink} rel="noreferrer" target="_blank" class="case-wrapper">
+      <a href={pageLink} rel="noreferrer" target="_blank" className="case-wrapper">
         <div className="case-card">
           <div className="case-card-image"></div>
           <div className="case-card-textbox">
